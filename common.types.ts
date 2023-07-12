@@ -28,7 +28,7 @@ export interface ProjectInterface {
 export interface UserProfile {
     id: string;
     name: string;
-    email: string;
+    email: String;
     description: string | null;
     avatarUrl: string;
     githubUrl: string | null;
